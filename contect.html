@@ -1,0 +1,79 @@
+<!doctype html>
+<html> 
+<head>
+   <h3>Contect Me</h3>
+
+    <form action="contect_processform.php" method="POST">
+
+            <P>
+                <label for="first_name">First Name</label><br />
+                 <input type="text" name="first_name" placeholder="Enter Your First Name" />
+            </P>
+
+            <p>
+                <label for="last_name">Last Name</label><br />
+                 <input type="text" name="last_name" placeholder="Enter Your Last Name" />
+            </p>
+
+            <p>
+                <label for="email">Email</label><br/>
+                <input type="email" name="email" placeholder="Email Your Email" required />
+            </p>
+
+                <p>
+                    <label for="department">Department</label><br/>
+
+                    <select name="department">
+                        <option>Select Department</option>
+                        <option>HR</option>
+                        <option>Marketing</option>
+                        <option>Board </option>
+                        <option>Kitchen</option>
+                    </select>
+                </p>
+
+            <p>
+                
+            </p>
+
+            <p>
+            <label for="gender">Gender</label><br />
+                <input type="radio" name="gender" /> Female
+                    <input type="radio" name="gender" />Male
+            </p> 
+
+            <p>
+                <label for="email">Your Message</label><br/>
+                <textarea name="message"></textarea>
+            </p>
+
+        </p>
+
+        <p>
+            <input type="checkbox" name="TandC" required /> by checking this box you agree to our terms and conditions
+        </p>
+
+        <input type="submit" name="submit" value="submit" />
+
+    </form>
+
+    <script>
+        (function app() {
+            let form = document.querySelector("#form");
+            let Contect = document.querySelector("#contect");
+
+            form.addEventListener('clink', function closeform(e) {
+                if (e. target == form) {
+                    form.classList.remove("open");
+                }
+            });
+
+        })();
+</script>
+        <!-- <footer>
+        </p>
+            create by 
+            </>
+    S        </footer> -->
+            </body>
+            </html>
